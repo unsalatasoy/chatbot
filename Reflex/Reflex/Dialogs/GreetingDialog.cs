@@ -17,7 +17,7 @@ namespace Reflex.Dialogs
             context.UserData.TryGetValue<string>("Name", out userName);
             if (string.IsNullOrEmpty(userName))
             {
-                await context.PostAsync("Hello, My name is Reflex, I am here to help you as an intelligent service of Your Bank.");
+                await context.PostAsync("Hello, My name is Reflex, I am here to help you as an intelligent service of My Bank.");
             }
             await Respond(context);
 
